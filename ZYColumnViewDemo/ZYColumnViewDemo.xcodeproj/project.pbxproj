@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7906B44C1DC3795800E6CCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B44B1DC3795800E6CCDD /* AppDelegate.swift */; };
-		7906B44E1DC3795800E6CCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B44D1DC3795800E6CCDD /* ViewController.swift */; };
-		7906B4511DC3795800E6CCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7906B44F1DC3795800E6CCDD /* Main.storyboard */; };
-		7906B4531DC3795800E6CCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4521DC3795800E6CCDD /* Assets.xcassets */; };
-		7906B4561DC3795800E6CCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4541DC3795800E6CCDD /* LaunchScreen.storyboard */; };
-		7906B46A1DC3796400E6CCDD /* ZYColumnConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B45E1DC3796400E6CCDD /* ZYColumnConfig.swift */; };
-		7906B46B1DC3796400E6CCDD /* ZYColumnDownPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B45F1DC3796400E6CCDD /* ZYColumnDownPromptView.swift */; };
-		7906B46C1DC3796400E6CCDD /* ZYColumnHScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4601DC3796400E6CCDD /* ZYColumnHScrollView.swift */; };
-		7906B46D1DC3796400E6CCDD /* ZYColumnItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4611DC3796400E6CCDD /* ZYColumnItem.swift */; };
-		7906B46E1DC3796400E6CCDD /* column_edit_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4631DC3796400E6CCDD /* column_edit_button@2x.png */; };
-		7906B46F1DC3796400E6CCDD /* column_edit_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4641DC3796400E6CCDD /* column_edit_delete@2x.png */; };
-		7906B4701DC3796400E6CCDD /* column_item_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4651DC3796400E6CCDD /* column_item_bg@2x.png */; };
-		7906B4711DC3796400E6CCDD /* column_spread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4661DC3796400E6CCDD /* column_spread@2x.png */; };
-		7906B4721DC3796400E6CCDD /* ZYColumnSpreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4671DC3796400E6CCDD /* ZYColumnSpreadView.swift */; };
-		7906B4731DC3796400E6CCDD /* ZYColumnUpPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4681DC3796400E6CCDD /* ZYColumnUpPromptView.swift */; };
-		7906B4741DC3796400E6CCDD /* ZYColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4691DC3796400E6CCDD /* ZYColumnViewController.swift */; };
+		79C4B9731DC3A6600047EF23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9721DC3A6600047EF23 /* AppDelegate.swift */; };
+		79C4B9751DC3A6600047EF23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9741DC3A6600047EF23 /* ViewController.swift */; };
+		79C4B9781DC3A6600047EF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B9761DC3A6600047EF23 /* Main.storyboard */; };
+		79C4B97A1DC3A6600047EF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B9791DC3A6600047EF23 /* Assets.xcassets */; };
+		79C4B97D1DC3A6600047EF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B97B1DC3A6600047EF23 /* LaunchScreen.storyboard */; };
+		79C4B9911DC3A69B0047EF23 /* ZYColumnConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9851DC3A69B0047EF23 /* ZYColumnConfig.swift */; };
+		79C4B9921DC3A69B0047EF23 /* ZYColumnDownPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9861DC3A69B0047EF23 /* ZYColumnDownPromptView.swift */; };
+		79C4B9931DC3A69B0047EF23 /* ZYColumnHScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9871DC3A69B0047EF23 /* ZYColumnHScrollView.swift */; };
+		79C4B9941DC3A69B0047EF23 /* ZYColumnItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9881DC3A69B0047EF23 /* ZYColumnItem.swift */; };
+		79C4B9951DC3A69B0047EF23 /* column_edit_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B98A1DC3A69B0047EF23 /* column_edit_button@2x.png */; };
+		79C4B9961DC3A69B0047EF23 /* column_edit_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B98B1DC3A69B0047EF23 /* column_edit_delete@2x.png */; };
+		79C4B9971DC3A69B0047EF23 /* column_item_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B98C1DC3A69B0047EF23 /* column_item_bg@2x.png */; };
+		79C4B9981DC3A69B0047EF23 /* column_spread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C4B98D1DC3A69B0047EF23 /* column_spread@2x.png */; };
+		79C4B9991DC3A69B0047EF23 /* ZYColumnSpreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B98E1DC3A69B0047EF23 /* ZYColumnSpreadView.swift */; };
+		79C4B99A1DC3A69B0047EF23 /* ZYColumnUpPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B98F1DC3A69B0047EF23 /* ZYColumnUpPromptView.swift */; };
+		79C4B99B1DC3A69B0047EF23 /* ZYColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C4B9901DC3A69B0047EF23 /* ZYColumnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7906B4481DC3795800E6CCDD /* ZYColumnViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYColumnViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7906B44B1DC3795800E6CCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7906B44D1DC3795800E6CCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7906B4501DC3795800E6CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7906B4521DC3795800E6CCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7906B4551DC3795800E6CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7906B4571DC3795800E6CCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7906B45E1DC3796400E6CCDD /* ZYColumnConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnConfig.swift; sourceTree = "<group>"; };
-		7906B45F1DC3796400E6CCDD /* ZYColumnDownPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnDownPromptView.swift; sourceTree = "<group>"; };
-		7906B4601DC3796400E6CCDD /* ZYColumnHScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnHScrollView.swift; sourceTree = "<group>"; };
-		7906B4611DC3796400E6CCDD /* ZYColumnItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnItem.swift; sourceTree = "<group>"; };
-		7906B4631DC3796400E6CCDD /* column_edit_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_edit_button@2x.png"; sourceTree = "<group>"; };
-		7906B4641DC3796400E6CCDD /* column_edit_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_edit_delete@2x.png"; sourceTree = "<group>"; };
-		7906B4651DC3796400E6CCDD /* column_item_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_item_bg@2x.png"; sourceTree = "<group>"; };
-		7906B4661DC3796400E6CCDD /* column_spread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_spread@2x.png"; sourceTree = "<group>"; };
-		7906B4671DC3796400E6CCDD /* ZYColumnSpreadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnSpreadView.swift; sourceTree = "<group>"; };
-		7906B4681DC3796400E6CCDD /* ZYColumnUpPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnUpPromptView.swift; sourceTree = "<group>"; };
-		7906B4691DC3796400E6CCDD /* ZYColumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnViewController.swift; sourceTree = "<group>"; };
+		79C4B96F1DC3A6600047EF23 /* ZYColumnViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYColumnViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C4B9721DC3A6600047EF23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79C4B9741DC3A6600047EF23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79C4B9771DC3A6600047EF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79C4B9791DC3A6600047EF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C4B97C1DC3A6600047EF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79C4B97E1DC3A6600047EF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C4B9851DC3A69B0047EF23 /* ZYColumnConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnConfig.swift; sourceTree = "<group>"; };
+		79C4B9861DC3A69B0047EF23 /* ZYColumnDownPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnDownPromptView.swift; sourceTree = "<group>"; };
+		79C4B9871DC3A69B0047EF23 /* ZYColumnHScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnHScrollView.swift; sourceTree = "<group>"; };
+		79C4B9881DC3A69B0047EF23 /* ZYColumnItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnItem.swift; sourceTree = "<group>"; };
+		79C4B98A1DC3A69B0047EF23 /* column_edit_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_edit_button@2x.png"; sourceTree = "<group>"; };
+		79C4B98B1DC3A69B0047EF23 /* column_edit_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_edit_delete@2x.png"; sourceTree = "<group>"; };
+		79C4B98C1DC3A69B0047EF23 /* column_item_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_item_bg@2x.png"; sourceTree = "<group>"; };
+		79C4B98D1DC3A69B0047EF23 /* column_spread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_spread@2x.png"; sourceTree = "<group>"; };
+		79C4B98E1DC3A69B0047EF23 /* ZYColumnSpreadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnSpreadView.swift; sourceTree = "<group>"; };
+		79C4B98F1DC3A69B0047EF23 /* ZYColumnUpPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnUpPromptView.swift; sourceTree = "<group>"; };
+		79C4B9901DC3A69B0047EF23 /* ZYColumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7906B4451DC3795800E6CCDD /* Frameworks */ = {
+		79C4B96C1DC3A6600047EF23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,58 +57,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7906B43F1DC3795800E6CCDD = {
+		79C4B9661DC3A6600047EF23 = {
 			isa = PBXGroup;
 			children = (
-				7906B44A1DC3795800E6CCDD /* ZYColumnViewDemo */,
-				7906B4491DC3795800E6CCDD /* Products */,
+				79C4B9711DC3A6600047EF23 /* ZYColumnViewDemo */,
+				79C4B9701DC3A6600047EF23 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7906B4491DC3795800E6CCDD /* Products */ = {
+		79C4B9701DC3A6600047EF23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7906B4481DC3795800E6CCDD /* ZYColumnViewDemo.app */,
+				79C4B96F1DC3A6600047EF23 /* ZYColumnViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7906B44A1DC3795800E6CCDD /* ZYColumnViewDemo */ = {
+		79C4B9711DC3A6600047EF23 /* ZYColumnViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7906B45D1DC3796400E6CCDD /* ZYColumnView */,
-				7906B44B1DC3795800E6CCDD /* AppDelegate.swift */,
-				7906B44D1DC3795800E6CCDD /* ViewController.swift */,
-				7906B44F1DC3795800E6CCDD /* Main.storyboard */,
-				7906B4521DC3795800E6CCDD /* Assets.xcassets */,
-				7906B4541DC3795800E6CCDD /* LaunchScreen.storyboard */,
-				7906B4571DC3795800E6CCDD /* Info.plist */,
+				79C4B9841DC3A69B0047EF23 /* ZYColumnView */,
+				79C4B9721DC3A6600047EF23 /* AppDelegate.swift */,
+				79C4B9741DC3A6600047EF23 /* ViewController.swift */,
+				79C4B9761DC3A6600047EF23 /* Main.storyboard */,
+				79C4B9791DC3A6600047EF23 /* Assets.xcassets */,
+				79C4B97B1DC3A6600047EF23 /* LaunchScreen.storyboard */,
+				79C4B97E1DC3A6600047EF23 /* Info.plist */,
 			);
 			path = ZYColumnViewDemo;
 			sourceTree = "<group>";
 		};
-		7906B45D1DC3796400E6CCDD /* ZYColumnView */ = {
+		79C4B9841DC3A69B0047EF23 /* ZYColumnView */ = {
 			isa = PBXGroup;
 			children = (
-				7906B4621DC3796400E6CCDD /* ZYColumnResource */,
-				7906B4691DC3796400E6CCDD /* ZYColumnViewController.swift */,
-				7906B45E1DC3796400E6CCDD /* ZYColumnConfig.swift */,
-				7906B45F1DC3796400E6CCDD /* ZYColumnDownPromptView.swift */,
-				7906B4601DC3796400E6CCDD /* ZYColumnHScrollView.swift */,
-				7906B4611DC3796400E6CCDD /* ZYColumnItem.swift */,
-				7906B4671DC3796400E6CCDD /* ZYColumnSpreadView.swift */,
-				7906B4681DC3796400E6CCDD /* ZYColumnUpPromptView.swift */,
+				79C4B9851DC3A69B0047EF23 /* ZYColumnConfig.swift */,
+				79C4B9861DC3A69B0047EF23 /* ZYColumnDownPromptView.swift */,
+				79C4B9871DC3A69B0047EF23 /* ZYColumnHScrollView.swift */,
+				79C4B9881DC3A69B0047EF23 /* ZYColumnItem.swift */,
+				79C4B9891DC3A69B0047EF23 /* ZYColumnResource */,
+				79C4B98E1DC3A69B0047EF23 /* ZYColumnSpreadView.swift */,
+				79C4B98F1DC3A69B0047EF23 /* ZYColumnUpPromptView.swift */,
+				79C4B9901DC3A69B0047EF23 /* ZYColumnViewController.swift */,
 			);
 			path = ZYColumnView;
 			sourceTree = "<group>";
 		};
-		7906B4621DC3796400E6CCDD /* ZYColumnResource */ = {
+		79C4B9891DC3A69B0047EF23 /* ZYColumnResource */ = {
 			isa = PBXGroup;
 			children = (
-				7906B4631DC3796400E6CCDD /* column_edit_button@2x.png */,
-				7906B4641DC3796400E6CCDD /* column_edit_delete@2x.png */,
-				7906B4651DC3796400E6CCDD /* column_item_bg@2x.png */,
-				7906B4661DC3796400E6CCDD /* column_spread@2x.png */,
+				79C4B98A1DC3A69B0047EF23 /* column_edit_button@2x.png */,
+				79C4B98B1DC3A69B0047EF23 /* column_edit_delete@2x.png */,
+				79C4B98C1DC3A69B0047EF23 /* column_item_bg@2x.png */,
+				79C4B98D1DC3A69B0047EF23 /* column_spread@2x.png */,
 			);
 			path = ZYColumnResource;
 			sourceTree = "<group>";
@@ -116,13 +116,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7906B4471DC3795800E6CCDD /* ZYColumnViewDemo */ = {
+		79C4B96E1DC3A6600047EF23 /* ZYColumnViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7906B45A1DC3795800E6CCDD /* Build configuration list for PBXNativeTarget "ZYColumnViewDemo" */;
+			buildConfigurationList = 79C4B9811DC3A6600047EF23 /* Build configuration list for PBXNativeTarget "ZYColumnViewDemo" */;
 			buildPhases = (
-				7906B4441DC3795800E6CCDD /* Sources */,
-				7906B4451DC3795800E6CCDD /* Frameworks */,
-				7906B4461DC3795800E6CCDD /* Resources */,
+				79C4B96B1DC3A6600047EF23 /* Sources */,
+				79C4B96C1DC3A6600047EF23 /* Frameworks */,
+				79C4B96D1DC3A6600047EF23 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -130,26 +130,26 @@
 			);
 			name = ZYColumnViewDemo;
 			productName = ZYColumnViewDemo;
-			productReference = 7906B4481DC3795800E6CCDD /* ZYColumnViewDemo.app */;
+			productReference = 79C4B96F1DC3A6600047EF23 /* ZYColumnViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7906B4401DC3795800E6CCDD /* Project object */ = {
+		79C4B9671DC3A6600047EF23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "成都拓尔思";
 				TargetAttributes = {
-					7906B4471DC3795800E6CCDD = {
+					79C4B96E1DC3A6600047EF23 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 7906B4431DC3795800E6CCDD /* Build configuration list for PBXProject "ZYColumnViewDemo" */;
+			buildConfigurationList = 79C4B96A1DC3A6600047EF23 /* Build configuration list for PBXProject "ZYColumnViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -157,65 +157,65 @@
 				en,
 				Base,
 			);
-			mainGroup = 7906B43F1DC3795800E6CCDD;
-			productRefGroup = 7906B4491DC3795800E6CCDD /* Products */;
+			mainGroup = 79C4B9661DC3A6600047EF23;
+			productRefGroup = 79C4B9701DC3A6600047EF23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7906B4471DC3795800E6CCDD /* ZYColumnViewDemo */,
+				79C4B96E1DC3A6600047EF23 /* ZYColumnViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7906B4461DC3795800E6CCDD /* Resources */ = {
+		79C4B96D1DC3A6600047EF23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7906B4701DC3796400E6CCDD /* column_item_bg@2x.png in Resources */,
-				7906B46F1DC3796400E6CCDD /* column_edit_delete@2x.png in Resources */,
-				7906B46E1DC3796400E6CCDD /* column_edit_button@2x.png in Resources */,
-				7906B4561DC3795800E6CCDD /* LaunchScreen.storyboard in Resources */,
-				7906B4531DC3795800E6CCDD /* Assets.xcassets in Resources */,
-				7906B4511DC3795800E6CCDD /* Main.storyboard in Resources */,
-				7906B4711DC3796400E6CCDD /* column_spread@2x.png in Resources */,
+				79C4B9971DC3A69B0047EF23 /* column_item_bg@2x.png in Resources */,
+				79C4B9961DC3A69B0047EF23 /* column_edit_delete@2x.png in Resources */,
+				79C4B9951DC3A69B0047EF23 /* column_edit_button@2x.png in Resources */,
+				79C4B97D1DC3A6600047EF23 /* LaunchScreen.storyboard in Resources */,
+				79C4B97A1DC3A6600047EF23 /* Assets.xcassets in Resources */,
+				79C4B9781DC3A6600047EF23 /* Main.storyboard in Resources */,
+				79C4B9981DC3A69B0047EF23 /* column_spread@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7906B4441DC3795800E6CCDD /* Sources */ = {
+		79C4B96B1DC3A6600047EF23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7906B4741DC3796400E6CCDD /* ZYColumnViewController.swift in Sources */,
-				7906B4731DC3796400E6CCDD /* ZYColumnUpPromptView.swift in Sources */,
-				7906B44E1DC3795800E6CCDD /* ViewController.swift in Sources */,
-				7906B46D1DC3796400E6CCDD /* ZYColumnItem.swift in Sources */,
-				7906B46B1DC3796400E6CCDD /* ZYColumnDownPromptView.swift in Sources */,
-				7906B46C1DC3796400E6CCDD /* ZYColumnHScrollView.swift in Sources */,
-				7906B4721DC3796400E6CCDD /* ZYColumnSpreadView.swift in Sources */,
-				7906B46A1DC3796400E6CCDD /* ZYColumnConfig.swift in Sources */,
-				7906B44C1DC3795800E6CCDD /* AppDelegate.swift in Sources */,
+				79C4B99B1DC3A69B0047EF23 /* ZYColumnViewController.swift in Sources */,
+				79C4B99A1DC3A69B0047EF23 /* ZYColumnUpPromptView.swift in Sources */,
+				79C4B9751DC3A6600047EF23 /* ViewController.swift in Sources */,
+				79C4B9941DC3A69B0047EF23 /* ZYColumnItem.swift in Sources */,
+				79C4B9921DC3A69B0047EF23 /* ZYColumnDownPromptView.swift in Sources */,
+				79C4B9931DC3A69B0047EF23 /* ZYColumnHScrollView.swift in Sources */,
+				79C4B9991DC3A69B0047EF23 /* ZYColumnSpreadView.swift in Sources */,
+				79C4B9911DC3A69B0047EF23 /* ZYColumnConfig.swift in Sources */,
+				79C4B9731DC3A6600047EF23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7906B44F1DC3795800E6CCDD /* Main.storyboard */ = {
+		79C4B9761DC3A6600047EF23 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7906B4501DC3795800E6CCDD /* Base */,
+				79C4B9771DC3A6600047EF23 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7906B4541DC3795800E6CCDD /* LaunchScreen.storyboard */ = {
+		79C4B97B1DC3A6600047EF23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7906B4551DC3795800E6CCDD /* Base */,
+				79C4B97C1DC3A6600047EF23 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7906B4581DC3795800E6CCDD /* Debug */ = {
+		79C4B97F1DC3A6600047EF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +272,7 @@
 			};
 			name = Debug;
 		};
-		7906B4591DC3795800E6CCDD /* Release */ = {
+		79C4B9801DC3A6600047EF23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,7 +314,7 @@
 			};
 			name = Release;
 		};
-		7906B45B1DC3795800E6CCDD /* Debug */ = {
+		79C4B9821DC3A6600047EF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		7906B45C1DC3795800E6CCDD /* Release */ = {
+		79C4B9831DC3A6600047EF23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -341,25 +341,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7906B4431DC3795800E6CCDD /* Build configuration list for PBXProject "ZYColumnViewDemo" */ = {
+		79C4B96A1DC3A6600047EF23 /* Build configuration list for PBXProject "ZYColumnViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7906B4581DC3795800E6CCDD /* Debug */,
-				7906B4591DC3795800E6CCDD /* Release */,
+				79C4B97F1DC3A6600047EF23 /* Debug */,
+				79C4B9801DC3A6600047EF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7906B45A1DC3795800E6CCDD /* Build configuration list for PBXNativeTarget "ZYColumnViewDemo" */ = {
+		79C4B9811DC3A6600047EF23 /* Build configuration list for PBXNativeTarget "ZYColumnViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7906B45B1DC3795800E6CCDD /* Debug */,
-				7906B45C1DC3795800E6CCDD /* Release */,
+				79C4B9821DC3A6600047EF23 /* Debug */,
+				79C4B9831DC3A6600047EF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7906B4401DC3795800E6CCDD /* Project object */;
+	rootObject = 79C4B9671DC3A6600047EF23 /* Project object */;
 }
