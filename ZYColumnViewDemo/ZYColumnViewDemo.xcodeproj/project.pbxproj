@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7906B44C1DC3795800E6CCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B44B1DC3795800E6CCDD /* AppDelegate.swift */; };
+		7906B44E1DC3795800E6CCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B44D1DC3795800E6CCDD /* ViewController.swift */; };
+		7906B4511DC3795800E6CCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7906B44F1DC3795800E6CCDD /* Main.storyboard */; };
+		7906B4531DC3795800E6CCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4521DC3795800E6CCDD /* Assets.xcassets */; };
+		7906B4561DC3795800E6CCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4541DC3795800E6CCDD /* LaunchScreen.storyboard */; };
+		7906B46A1DC3796400E6CCDD /* ZYColumnConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B45E1DC3796400E6CCDD /* ZYColumnConfig.swift */; };
+		7906B46B1DC3796400E6CCDD /* ZYColumnDownPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B45F1DC3796400E6CCDD /* ZYColumnDownPromptView.swift */; };
+		7906B46C1DC3796400E6CCDD /* ZYColumnHScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4601DC3796400E6CCDD /* ZYColumnHScrollView.swift */; };
+		7906B46D1DC3796400E6CCDD /* ZYColumnItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4611DC3796400E6CCDD /* ZYColumnItem.swift */; };
+		7906B46E1DC3796400E6CCDD /* column_edit_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4631DC3796400E6CCDD /* column_edit_button@2x.png */; };
+		7906B46F1DC3796400E6CCDD /* column_edit_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4641DC3796400E6CCDD /* column_edit_delete@2x.png */; };
+		7906B4701DC3796400E6CCDD /* column_item_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4651DC3796400E6CCDD /* column_item_bg@2x.png */; };
+		7906B4711DC3796400E6CCDD /* column_spread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7906B4661DC3796400E6CCDD /* column_spread@2x.png */; };
+		7906B4721DC3796400E6CCDD /* ZYColumnSpreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4671DC3796400E6CCDD /* ZYColumnSpreadView.swift */; };
+		7906B4731DC3796400E6CCDD /* ZYColumnUpPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4681DC3796400E6CCDD /* ZYColumnUpPromptView.swift */; };
+		7906B4741DC3796400E6CCDD /* ZYColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906B4691DC3796400E6CCDD /* ZYColumnViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7906B4481DC3795800E6CCDD /* ZYColumnViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYColumnViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7906B44B1DC3795800E6CCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7906B44D1DC3795800E6CCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7906B4501DC3795800E6CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7906B4521DC3795800E6CCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7906B4551DC3795800E6CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7906B4571DC3795800E6CCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7906B45E1DC3796400E6CCDD /* ZYColumnConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnConfig.swift; sourceTree = "<group>"; };
+		7906B45F1DC3796400E6CCDD /* ZYColumnDownPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnDownPromptView.swift; sourceTree = "<group>"; };
+		7906B4601DC3796400E6CCDD /* ZYColumnHScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnHScrollView.swift; sourceTree = "<group>"; };
+		7906B4611DC3796400E6CCDD /* ZYColumnItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnItem.swift; sourceTree = "<group>"; };
+		7906B4631DC3796400E6CCDD /* column_edit_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_edit_button@2x.png"; sourceTree = "<group>"; };
+		7906B4641DC3796400E6CCDD /* column_edit_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_edit_delete@2x.png"; sourceTree = "<group>"; };
+		7906B4651DC3796400E6CCDD /* column_item_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_item_bg@2x.png"; sourceTree = "<group>"; };
+		7906B4661DC3796400E6CCDD /* column_spread@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "column_spread@2x.png"; sourceTree = "<group>"; };
+		7906B4671DC3796400E6CCDD /* ZYColumnSpreadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnSpreadView.swift; sourceTree = "<group>"; };
+		7906B4681DC3796400E6CCDD /* ZYColumnUpPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnUpPromptView.swift; sourceTree = "<group>"; };
+		7906B4691DC3796400E6CCDD /* ZYColumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColumnViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7906B4451DC3795800E6CCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7906B43F1DC3795800E6CCDD = {
+			isa = PBXGroup;
+			children = (
+				7906B44A1DC3795800E6CCDD /* ZYColumnViewDemo */,
+				7906B4491DC3795800E6CCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7906B4491DC3795800E6CCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7906B4481DC3795800E6CCDD /* ZYColumnViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7906B44A1DC3795800E6CCDD /* ZYColumnViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7906B45D1DC3796400E6CCDD /* ZYColumnView */,
+				7906B44B1DC3795800E6CCDD /* AppDelegate.swift */,
+				7906B44D1DC3795800E6CCDD /* ViewController.swift */,
+				7906B44F1DC3795800E6CCDD /* Main.storyboard */,
+				7906B4521DC3795800E6CCDD /* Assets.xcassets */,
+				7906B4541DC3795800E6CCDD /* LaunchScreen.storyboard */,
+				7906B4571DC3795800E6CCDD /* Info.plist */,
+			);
+			path = ZYColumnViewDemo;
+			sourceTree = "<group>";
+		};
+		7906B45D1DC3796400E6CCDD /* ZYColumnView */ = {
+			isa = PBXGroup;
+			children = (
+				7906B4621DC3796400E6CCDD /* ZYColumnResource */,
+				7906B4691DC3796400E6CCDD /* ZYColumnViewController.swift */,
+				7906B45E1DC3796400E6CCDD /* ZYColumnConfig.swift */,
+				7906B45F1DC3796400E6CCDD /* ZYColumnDownPromptView.swift */,
+				7906B4601DC3796400E6CCDD /* ZYColumnHScrollView.swift */,
+				7906B4611DC3796400E6CCDD /* ZYColumnItem.swift */,
+				7906B4671DC3796400E6CCDD /* ZYColumnSpreadView.swift */,
+				7906B4681DC3796400E6CCDD /* ZYColumnUpPromptView.swift */,
+			);
+			path = ZYColumnView;
+			sourceTree = "<group>";
+		};
+		7906B4621DC3796400E6CCDD /* ZYColumnResource */ = {
+			isa = PBXGroup;
+			children = (
+				7906B4631DC3796400E6CCDD /* column_edit_button@2x.png */,
+				7906B4641DC3796400E6CCDD /* column_edit_delete@2x.png */,
+				7906B4651DC3796400E6CCDD /* column_item_bg@2x.png */,
+				7906B4661DC3796400E6CCDD /* column_spread@2x.png */,
+			);
+			path = ZYColumnResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7906B4471DC3795800E6CCDD /* ZYColumnViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7906B45A1DC3795800E6CCDD /* Build configuration list for PBXNativeTarget "ZYColumnViewDemo" */;
+			buildPhases = (
+				7906B4441DC3795800E6CCDD /* Sources */,
+				7906B4451DC3795800E6CCDD /* Frameworks */,
+				7906B4461DC3795800E6CCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYColumnViewDemo;
+			productName = ZYColumnViewDemo;
+			productReference = 7906B4481DC3795800E6CCDD /* ZYColumnViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7906B4401DC3795800E6CCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "成都拓尔思";
+				TargetAttributes = {
+					7906B4471DC3795800E6CCDD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7906B4431DC3795800E6CCDD /* Build configuration list for PBXProject "ZYColumnViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7906B43F1DC3795800E6CCDD;
+			productRefGroup = 7906B4491DC3795800E6CCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7906B4471DC3795800E6CCDD /* ZYColumnViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7906B4461DC3795800E6CCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7906B4701DC3796400E6CCDD /* column_item_bg@2x.png in Resources */,
+				7906B46F1DC3796400E6CCDD /* column_edit_delete@2x.png in Resources */,
+				7906B46E1DC3796400E6CCDD /* column_edit_button@2x.png in Resources */,
+				7906B4561DC3795800E6CCDD /* LaunchScreen.storyboard in Resources */,
+				7906B4531DC3795800E6CCDD /* Assets.xcassets in Resources */,
+				7906B4511DC3795800E6CCDD /* Main.storyboard in Resources */,
+				7906B4711DC3796400E6CCDD /* column_spread@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7906B4441DC3795800E6CCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7906B4741DC3796400E6CCDD /* ZYColumnViewController.swift in Sources */,
+				7906B4731DC3796400E6CCDD /* ZYColumnUpPromptView.swift in Sources */,
+				7906B44E1DC3795800E6CCDD /* ViewController.swift in Sources */,
+				7906B46D1DC3796400E6CCDD /* ZYColumnItem.swift in Sources */,
+				7906B46B1DC3796400E6CCDD /* ZYColumnDownPromptView.swift in Sources */,
+				7906B46C1DC3796400E6CCDD /* ZYColumnHScrollView.swift in Sources */,
+				7906B4721DC3796400E6CCDD /* ZYColumnSpreadView.swift in Sources */,
+				7906B46A1DC3796400E6CCDD /* ZYColumnConfig.swift in Sources */,
+				7906B44C1DC3795800E6CCDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7906B44F1DC3795800E6CCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7906B4501DC3795800E6CCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7906B4541DC3795800E6CCDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7906B4551DC3795800E6CCDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7906B4581DC3795800E6CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7906B4591DC3795800E6CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7906B45B1DC3795800E6CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYColumnViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trs.test.ZYColumnViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7906B45C1DC3795800E6CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYColumnViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trs.test.ZYColumnViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7906B4431DC3795800E6CCDD /* Build configuration list for PBXProject "ZYColumnViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7906B4581DC3795800E6CCDD /* Debug */,
+				7906B4591DC3795800E6CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7906B45A1DC3795800E6CCDD /* Build configuration list for PBXNativeTarget "ZYColumnViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7906B45B1DC3795800E6CCDD /* Debug */,
+				7906B45C1DC3795800E6CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7906B4401DC3795800E6CCDD /* Project object */;
+}
