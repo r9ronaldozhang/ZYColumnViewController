@@ -28,7 +28,7 @@ class ViewController: UIViewController , ZYColumnViewControllerDelegate {
     private func initColumnVC(_ titles : [String], _ spareTitles : [String] , _ fixCount : Int){
         // 初始化columnVC
         let columnVC = ZYColumnViewController()
-        columnVC.view.frame = CGRect(x: 0, y: 30, width: ZYScreenWidth, height: 40)
+        columnVC.view.frame = CGRect(x: 0, y: 64, width: ZYScreenWidth, height: 40)
         columnVC.arrayTitles = titles
         if spareTitles.count > 0 {
             columnVC.arraySpareTitles = spareTitles
