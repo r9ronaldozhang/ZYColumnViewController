@@ -3,6 +3,7 @@
 
 ## 关于 ZYColumnViewController
 * ZYColumnViewController是一款简单易用的轻量级频道选择控件，其UI界面参考网易新闻。但是我为用户留下大量的可定制DIY常量供使用者修改以满足各自项目的实际需求
+
 ## 支持版本
 * 目前此控件尽支持swift3.0 已经在XCode8.0以及XCode8.1上进行了编译测试。需要OC版本或者支持swift2.3的可以issues我
 
@@ -19,5 +20,5 @@
 
 ## 效果图
 
-![image]("https://github.com/appleid8888@sina.com/ZYColumnViewController/ZYColumnViewDemo/ZYColumnViewDemo/Introduce/column.gif")
+![image]("http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif")
 
