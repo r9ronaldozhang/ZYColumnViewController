@@ -23,7 +23,7 @@ class ViewController: UIViewController , ZYColumnViewControllerDelegate {
     /// 使用: 将ZYColumnView 文件夹 拖拽到你的工程中，不需要添加任何的依赖
     /// 在ZYColumnConfig里面DIY 按照你需求调整UI
     /// 展开view 里面的 item 代码比较简单，修改Item样式 可以直接修改 ZYColumnItem ,不会影响代码逻辑功能
-    
+    /// 注意，应用默认在导航条位置有一个透明控件，加载到window上，以响应点击导航条，收回展开的操作  size :(屏幕宽度 ：64)
     /// 创建 columnVC   就这几行代码，啥功能都有了
     private func initColumnVC(_ titles : [String], _ spareTitles : [String] , _ fixCount : Int){
         // 初始化columnVC
