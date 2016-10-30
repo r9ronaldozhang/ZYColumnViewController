@@ -18,4 +18,4 @@
     * DIY 保证你的项目能达到你想要的效果，去ZYColumnConfig 里面去捣腾吧！
 
 ## 效果图
-<img src="http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif width="30%" height="30%">
+![image]("http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif)
