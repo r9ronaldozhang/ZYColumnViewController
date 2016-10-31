@@ -22,5 +22,7 @@
 
    ** gif 易挂 复制链接到浏览器看效果 http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif 
 
+<img src="/ZYColumnViewDemo/ZYColumnViewDemo/Introduce" width="30%">
+
 ![image]("http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif")
 
