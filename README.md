@@ -22,11 +22,6 @@
 
    ** gif 易挂 复制链接到浏览器看效果 http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif 
 
-<<<<<<< HEAD
-<img src="/ZYColumnViewDemo/ZYColumnViewDemo/Introduce" width="30%">
+<img src="/ZYColumnViewDemo/ZYColumnViewDemo/Introduce" width="30%>
 
-![image]("http://www.code4app.com/data/attachment/forum/201610/30/141214iw12tueoo9ex9x2e.gif")
-=======
-![image]("https://github.com/appleid8888@sina.com/ZYColumnViewController/ZYColumnViewDemo/ZYColumnViewDemo/Introduce/column.gif")
->>>>>>> origin/master
 
