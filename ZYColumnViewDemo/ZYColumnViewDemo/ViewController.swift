@@ -15,11 +15,16 @@ class ViewController: UIViewController , ZYColumnViewControllerDelegate {
         
         view.backgroundColor = UIColor.gray
         
+        // 注意，如果frame 位置，显示出现问题，尝试设置这个属性
+        self.automaticallyAdjustsScrollViewInsets = false
+        
         // 注意，arrayTitles 不能为空
         let arrayTitles = ["头条","财经","体育","娱乐圈","段子","健康","图片","军事","精选","国际足球","历史","跟帖","居家"]
         let arraySpareTitles = ["房产","直播","轻松一刻","独家","社会","手机","数码","酒香","美女","艺术","读书","情感","论坛","博客","NBA","旅游","跑步","影视","政务","本地","汽车","公开课","游戏","独家","时尚","轻松一刻","社会","漫画"]
         self.initColumnVC(arrayTitles, arraySpareTitles, 1)
+        
     }
+    
     /// 使用: 将ZYColumnView 文件夹 拖拽到你的工程中，不需要添加任何的依赖
     /// 在ZYColumnConfig里面DIY 按照你需求调整UI
     /// 展开view 里面的 item 代码比较简单，修改Item样式 可以直接修改 ZYColumnItem ,不会影响代码逻辑功能
