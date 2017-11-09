@@ -210,7 +210,7 @@ extension ZYColumnViewController {
     /// 旋转展开按钮
     fileprivate func transitionSpreadBtn(toSpread : Bool) {
         UIView.animate(withDuration: 0.2) { () -> Void in
-            let angle = toSpread ? M_PI * 0.25 : -M_PI * 0.25
+            let angle = toSpread ? .pi * 0.25 : -.pi * 0.25
             self.spreadBtn.transform = self.spreadBtn.transform.rotated(by: CGFloat(angle))
         }
     }

@@ -13,6 +13,7 @@ import UIKit
 let kColumnScreenW = UIScreen.main.bounds.size.width
 let kColumnScreenH = UIScreen.main.bounds.size.height
 
+let kColumnItemEqualWidth = true                                        // 默认横向item是否等宽 还是根据文字匹配
 let kColumnViewH:CGFloat = 40.0                                         // 默认高度
 let kColumnViewW = kColumnScreenW                                       // 默认宽度
 let kSpreadMaxH:CGFloat = kColumnScreenH - 64                           // 默认下拉展开的最大高度

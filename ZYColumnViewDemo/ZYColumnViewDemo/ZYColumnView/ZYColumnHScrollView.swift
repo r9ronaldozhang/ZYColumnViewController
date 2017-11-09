@@ -97,7 +97,12 @@ extension ZYColumnHScrollView {
             item.setTitleColor(kColumnTitleNorColor, for: UIControlState.normal)
             item.setTitleColor(kColumnTitleSelColor, for: UIControlState.selected)
             item.titleLabel?.font = UIFont.systemFont(ofSize: kColumnTitleNorFont)
-            item.frame.size = CGSize(width: (item.frame.width + kColumnTitleMargin) > kColumnIndictorMinW ? item.frame.width + kColumnTitleMargin : kColumnIndictorMinW, height: kColumnHasIndicator ? kColumnViewH - kColumnIndictorH : kColumnViewH)     // 增加按钮宽度，达到间隙效果
+            if kColumnItemEqualWidth {
+                item.frame.size = CGSize(width: (kColumnScreenW-(CGFloat(kColumnLayoutCount)+1)*kColumnTitleMargin)/CGFloat(kColumnLayoutCount), height: kColumnHasIndicator ? kColumnViewH - kColumnIndictorH : kColumnViewH)
+            } else {
+                item.sizeToFit()
+                item.frame.size = CGSize(width: (item.frame.width + kColumnTitleMargin) > kColumnIndictorMinW ? item.frame.width + kColumnTitleMargin : kColumnIndictorMinW, height: kColumnHasIndicator ? kColumnViewH - kColumnIndictorH : kColumnViewH)     // 增加按钮宽度，达到间隙效果
+            }
             item.frame = CGRect(x: sumItemW, y: 0, width: item.frame.width, height: item.frame.height)
             sumItemW += item.frame.width
             item.tag = i
